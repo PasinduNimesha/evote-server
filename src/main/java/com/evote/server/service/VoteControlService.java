@@ -1,13 +1,13 @@
 package com.evote.server.service;
 
-import com.evote.dto.ApiResponse;
-import com.evote.model.Candidate;
-import com.evote.model.Result;
-import com.evote.model.UserVoteCheck;
-import com.evote.repository.CandidateRepository;
-import com.evote.repository.ResultRepository;
-import com.evote.repository.UserVoteCheckRepository;
-import com.evote.repository.VoteRepository;
+import com.evote.server.dto.ApiResponse;
+import com.evote.server.model.Candidate;
+import com.evote.server.model.Result;
+import com.evote.server.model.UserVoteCheck;
+import com.evote.server.repository.CandidateRepository;
+import com.evote.server.repository.ResultRepository;
+import com.evote.server.repository.UserVoteCheckRepository;
+import com.evote.server.repository.VoteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
