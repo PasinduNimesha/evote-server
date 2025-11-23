@@ -1,10 +1,10 @@
 package com.evote.server.config;
 
 
-import com.evote.model.User;
-import com.evote.model.UserPassword;
-import com.evote.repository.UserPasswordRepository;
-import com.evote.repository.UserRepository;
+import com.evote.server.model.User;
+import com.evote.server.model.UserPassword;
+import com.evote.server.repository.UserPasswordRepository;
+import com.evote.server.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
