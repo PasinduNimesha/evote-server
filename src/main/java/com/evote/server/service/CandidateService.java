@@ -16,6 +16,10 @@ public class CandidateService {
 
     private final CandidateRepository candidateRepository;
 
+    public CandidateService(CandidateRepository candidateRepository) {
+        this.candidateRepository = candidateRepository;
+    }
+
     public List<Candidate> getAllCandidates() {
         return candidateRepository.findAll();
     }
