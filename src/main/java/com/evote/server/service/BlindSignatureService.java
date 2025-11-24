@@ -32,7 +32,6 @@ public class BlindSignatureService {
             // Convert to hex string
             return Hex.toHexString(signatureBytes);
         } catch (Exception e) {
-            log.error("Error signing blinded vote", e);
             throw new RuntimeException("Failed to sign blinded vote", e);
         }
     }
