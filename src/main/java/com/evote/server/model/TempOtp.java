@@ -8,9 +8,9 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "temp_otp")
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class TempOtp {
 
     @Id
